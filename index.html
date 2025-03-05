@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card">
+        <h2>About Me</h2>
+        <img src="FOTO_HITAM.png" alt="Foto Profil" class="profile-pic">
+        <h3>Adinda Ramadani</h3>
+        <p>102022300033 / Rekayasa Industri / Sistem Informasi</p>
+        <div class="social-buttons">
+            <a href="https://www.linkedin.com/in/adindaramadani/" target="_blank">
+                <img src="Linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://www.instagram.com/adinda_dni/" target="_blank">
+                <img src="Instagram.png" alt="Instagram">
+            </a>
+            <a href="https://github.com/dashboard" target="_blank">
+                <img src="Github.png" alt="GitHub">
+            </a>
+        </div>
+        <p>Hello, I am a new student majoring in Information Systems, Telkom University.</p>
+        <p class="footer">Hari Ini: <span id="tanggal"></span></p>
+    </div>
+
+    <script>
+        document.getElementById("tanggal").innerText = new Date().toLocaleString();
+    </script>
+</body>
+</html>
